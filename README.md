@@ -2,7 +2,7 @@
 
 **Authors:** Matteo Brucato, Fjodor Kholodkov, Soren Little, Jakob Mayer, Duc Nguyen
 **Affiliation:** OSM Data
-**Submitted to:** VLDB 2026 Demo Track
+**Venue:** VLDB 2026 Demo Track
 
 This repository contains the benchmark scripts for reproducing the solver comparison results reported in the paper.
 
