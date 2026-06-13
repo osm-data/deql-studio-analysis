@@ -5,6 +5,7 @@ description = "Solver benchmarks for DeQL Studio (VLDB 2026 Demo Track)"
 requires-python = ">=3.11"
 dependencies = [
     "numpy==2.4.2",
+    "scipy==1.17.1",
     "highspy==1.13.1",
     "ortools==9.15.6755",
 ]
