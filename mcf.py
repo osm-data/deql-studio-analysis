@@ -6,7 +6,7 @@ Solves the GPU allocation as a min-cost flow problem on a bipartite
 supply-demand graph. This is the formulation the DeQL engine selects
 after detecting transportation structure in the query.
 
-Polynomial time via network simplex (OR-Tools).
+Polynomial time via OR-Tools min-cost flow (cost-scaling push-relabel).
 """
 
 from __future__ import annotations

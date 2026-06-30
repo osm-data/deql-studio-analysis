@@ -236,7 +236,7 @@ def main():
     print("Check 2: fair LP-relaxation baseline vs min-cost flow")
     from mcf import solve_mcf
     mcf = solve_mcf(inst)
-    print(f"  MCF (network simplex)    solve={mcf['solve_s']:.3f}s  "
+    print(f"  MCF (OR-Tools cost-scaling)    solve={mcf['solve_s']:.3f}s  "
           f"total={mcf['time_s']:.3f}s  obj=${mcf['objective']:,}")
     report["mcf"] = mcf
 

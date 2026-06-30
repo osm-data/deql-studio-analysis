@@ -58,7 +58,7 @@ def main():
     results.append(r)
 
     # MCF
-    print("Running MCF (network simplex)...", end=" ", flush=True)
+    print("Running MCF (OR-Tools cost-scaling)...", end=" ", flush=True)
     from mcf import solve_mcf
     r = solve_mcf(inst)
     print(f"{format_time(r['time_s'])}, ${r['objective']:,}, {r['status']}")
