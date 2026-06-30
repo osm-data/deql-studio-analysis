@@ -186,7 +186,7 @@ def highs_lp_relaxation(inst: AllocationInstance) -> dict:
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Network-structure detection check (demo paper D5/D6)")
+        description="Network-structure detection check for the DeQL Studio demo paper")
     parser.add_argument("--skip-gurobi", action="store_true",
                         help="Skip the Gurobi checks (requires a license)")
     parser.add_argument("--seed", type=int, default=42)
