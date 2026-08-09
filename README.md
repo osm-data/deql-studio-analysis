@@ -27,7 +27,7 @@ The benchmark generates a GPU allocation instance (1,000 pools, 4,000 workloads,
 
 | Script | Formulation | Expected result |
 |--------|------------|-----------------|
-| `greedy.py` | Cheapest-pool heuristic | ~4s, $856K, **infeasible** (107 violations) |
+| `greedy.py` | Demand-priority heuristic | ~4s, $844K, **infeasible** (102 violations) |
 | `mcf.py` | Min-cost network flow | ~0.9s, $554,053, **optimal** |
 | `gurobi.py` | MILP (Gurobi) | ~26s, $554,053, **optimal** |
 | `highs.py` | MILP (HiGHS) | >6min, $554,053, **optimal** |
